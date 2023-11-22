@@ -1,0 +1,21 @@
+{
+    "name": "brainstorm/restful",
+    "description": "brainstorm technical asssessment",
+    "autoload": {
+        "psr-4": {
+            "Brainstorm\\Restful\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "CurpraCode",
+            "email": "curtsoyaks@gmail.com"
+        }
+    ],
+    "require": {
+        "php":"^8.2"
+    },
+    "scripts": {
+        "start": "php -S localhost:8000 -t ."
+      }
+}
