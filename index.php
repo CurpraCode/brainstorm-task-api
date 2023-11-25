@@ -6,7 +6,8 @@ require_once __DIR__ . '/src/Helpers/function.php';
 // Handle CORS headers
 $allowedOrigins = [
     'http://localhost:3000',
-    'https://brainstorm-frontend-ui.vercel.app/',
+    'https://brainstorm-frontend-ui.vercel.app',
+    'https://brainstorm-frontend-ui.vercel.app/'
 ];
 
 $requestOrigin = isset($_SERVER['HTTP_ORIGIN']) ? $_SERVER['HTTP_ORIGIN'] : '';
